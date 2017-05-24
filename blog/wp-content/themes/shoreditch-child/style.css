@@ -1,0 +1,219 @@
+/*
+Theme Name: Shoreditch child
+Theme URI: https://wordpress.com/themes/shoreditch/
+Description: Shoreditch is a functional and responsive theme perfect for your business’s online presence. Although its main purpose is business, Shoreditch looks great as a personal blog theme too.
+Version: 1.0.5
+Author: Automattic
+Author URI: https://wordpress.com/themes/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: shoreditch
+Text Domain: shoreditch-child
+Tags: two-columns, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, full-width-template, rtl-language-support, sticky-post, theme-options, translation-ready, blog, education, portfolio
+*/
+@import url("../shoreditch/style.css");
+.site-header{
+	padding-bottom: 1.3em !important;
+    background: #0C4C73; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #0C4C73 , #317091); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #0C4C73, #317091); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #0C4C73, #317091); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #0C4C73 , #317091); /* Standard syntax (must be last) */
+}
+h1,
+.entry-title,
+.post-type-archive-jetpack-testimonial .page-title {
+	font-size: 2.5rem;
+}
+
+h2 {
+font-size: 20px;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	font-size: 1.1rem !important;
+}
+.primary-menu a {
+	color: #FFFFFF;
+}
+.primary-menu a:hover {
+  color: #FFFFFF !important;
+  cursor: pointer;
+}
+a:hover {
+  color: #00A8BA !important;
+  cursor: pointer;
+}
+.archive .content-area .hentry,
+.blog .content-area .hentry,
+.search .content-area .hentry {
+	padding-top: 2.5em;
+}
+.search-form .search-submit:before {
+	background: #00A8BA;
+}
+.main-navigation .primary-menu .current_page_item > a,
+.main-navigation .primary-menu .current-menu-item > a,
+.main-navigation .primary-menu .current_page_ancestor > a {
+	border-color: #86C449;
+}
+@media screen and (min-width: 1020px) {
+  .entry-hero-wrapper {
+    padding-bottom: 4em !important;
+    padding-top: 6em !important;
+  }
+  .site-content-wrapper .widget-area {
+    padding-top: 4.5em !important;
+  }
+  /* Content */
+  .hentry {
+    padding-top: 4.5em !important;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-title {
+  clear: both;
+  color: #2c313f;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  margin: 0 0 1.5rem;
+}
+/*--------------------------------------------------------------
+## x >= 896px
+--------------------------------------------------------------*/
+@media screen and (min-width: 896px) {
+  body:not(.no-sidebar) .content-area {
+    width: 75% !important;
+  }
+  .site-content-wrapper .widget-area {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .entry-footer,
+  .entry-meta,
+  .site-info,
+  .widget-small,
+  .widget-small input,
+  .widget-small select,
+  .widget-small textarea {
+    font-size: 16px;
+    font-size: 0.8rem;
+    line-height: 1;
+  }
+  .post-contactform input,.post-contactform button{font-size: 20px !important;}
+}
+
+.widget#recent-posts-2 {
+    line-height: 15px;
+}
+/*Post Header size changes*/
+article.post .entry-title, article.post h1{font-size: 42px;}
+article.post h2.entry-title{font-size: 32px;}
+article.post h2{font-size: 32px;}
+article.post h3{font-size: 28px;}
+article.post h4{font-size: 24px;}
+article.post h5{font-size: 22px;}
+/*Post Header size changes*/
+/* Post CTA design */
+.post-contactform input{
+  color: #adafb5;
+  font-family: Lato;
+  /*font-size: 20px !important;*/
+  font-weight: 400;
+  line-height: 0;
+  background-color: white !important;
+  width: 50%;
+  padding: 2%;
+  outline: none !important;
+  height: 50px;
+}
+.post-contactform button{
+background-color: #00a8ba;
+color: white;
+font-family: Lato;
+/*font-size: 20px !important;*/
+font-weight: 400;
+line-height: 0;
+text-transform: uppercase;
+border-radius: 0 !important;
+padding: 4%;
+height: 50px;
+}
+.contactform_div{
+  background-color: #5d5d5d;padding: 2% 4% 3%;
+}
+p.contactform-top-content{
+color: white;
+font-family: Lato;
+font-size: 20px !important;
+font-weight: 700;
+margin-bottom: 15px;
+}
+p.contactform-bottom-content{
+color: white;
+font-family: Lato;
+font-size: 20px !important;
+font-weight: 700;
+margin-bottom: 0;
+}
+p.contactform-bottom-content a{
+  color: #00a8ba;
+  text-decoration: underline;
+  box-shadow: 0 0 0 0;
+}
+.contactfor_form_section{padding-bottom: 4%;}
+
+.contactform_div::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #adafb5 !important;
+}
+.contactform_div::-moz-placeholder { /* Firefox 19+ */
+  color: #adafb5 !important;
+}
+.contactform_div:-ms-input-placeholder { /* IE 10+ */
+  color: #adafb5 !important;
+}
+.contactform_div:-moz-placeholder { /* Firefox 18- */
+  color: #adafb5 !important;
+}
+.success_message_header,.success_message_content{
+  color: white;
+  font-family: Lato;
+  font-size: 20px !important;
+  font-weight: 700;
+  line-height: 0;
+}
+.success_box{display: inline-flex;padding: 5% 0;}
+.success_message_left_image{
+    width: 20%;
+    position: relative;
+    padding-right: 2%;
+  }
+.success_message_left_image img{    
+    left: 5%;
+    position: relative;
+  }
+.success_box_content{  
+    width: 80%;
+    position: relative;
+  }
+  .changePlaceColor1::-webkit-input-placeholder{color:#FF5252!important}
+  .changePlaceColor2:-moz-placeholder{color:#FF5252!important}
+  .changePlaceColor3::-moz-placeholder{color:#FF5252!important}
+  .changePlaceColor4:-ms-input-placeholder{color:#FF5252!important}
+  input:focus::-webkit-input-placeholder{color:transparent!important}
+  input:focus:-moz-placeholder{color:transparent!important}
+  @media screen and (max-width: 768px) {
+     .post-contactform input,.post-contactform button{font-size: 18px !important;}
+  }
+/* Post CTA design */
+

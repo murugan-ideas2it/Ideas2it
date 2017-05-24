@@ -1,0 +1,244 @@
+.appq_clear{
+	clear: both;
+}
+
+.appq_hidden{
+	display: none;
+}
+
+.appq_show{
+	display: block;
+}
+
+li#wp-admin-bar-approve-quickly{
+	position: relative;
+}
+
+li#wp-admin-bar-approve-quickly.hover > #appq-comments-submenu{
+	display: block;
+}
+
+#appq-comments-submenu{
+	display: none;
+	position: absolute;
+	top: 32px;
+	background-color: #333;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+#appq-comments-submenu p.appq_loading{
+	background: #FFF url('../images/load.gif') no-repeat 160px 75px;
+	font-size: 11px;
+	color: #777777;
+	text-shadow: none;
+	padding: 45px 0 55px 0;
+	width: 500px; 
+	margin: 0;
+	text-align: center;
+	cursor: default;
+}
+
+li#wp-admin-bar-approve-quickly span.ab-icon:before{
+	content: '\f101';
+	top: 3px;
+}
+
+li#wp-admin-bar-approve-quickly .ab-label{
+	display: none;
+	float: left;
+}
+
+li#wp-admin-bar-approve-quickly.menupop .ab-label{
+	display: block;
+} 
+
+ul#appq-comments-list{
+	display: block;
+	width: 470px;
+}
+
+#appq-comments-list li.appq_single_comment{
+	border-bottom: 1px solid #444444;
+	overflow: hidden;
+}
+
+#appq-comments-list li.appq_single_comment > img{
+	float: left;
+	margin: 15px 15px 15px 15px;
+	width: 50px;
+	height: 50px;  
+}
+
+/***************************************
+	Icons panel
+****************************************/
+
+#appq-comments-list li .appq_comment_panel{
+	width: 41px;
+	display: block;
+	background-color: #3D3D3D;
+	position: absolute;
+	right: 0;
+	height: 100%; 
+}
+
+#appq-comments-list li .appq_comment_panel a{
+	float: left;
+	display: block;
+	background-repeat: no-repeat;
+	background-image: url("../images/icons.gif");
+	padding: 0;
+}
+
+#appq-comments-list li .appq_comment_panel a.approve{
+	padding: 5px 0 0 0;
+	height: 25px; 
+	background-image: none;
+	width: 41px;
+	background-position: 0 11px;
+}
+
+#appq-comments-list li .appq_comment_panel a.approve:before{
+	content: '\f147';
+	font: 20px/1 'dashicons' !important;
+	padding-left: 9px;
+}
+
+#appq-comments-list li .appq_comment_panel a.trash{
+	background-image: none;
+	width: 41px;
+	height: 25px;
+	background-position: -41px 7px;
+}
+
+#appq-comments-list li .appq_comment_panel a.trash:before{
+	content: '\f158';
+	padding-left: 11px;
+	font: 17px/1 'dashicons' !important;
+}
+
+#appq-comments-list li .appq_comment_panel a:hover{
+	background-color: #333;
+}
+
+#appq-comments-list li .appq_comment_panel a:active{
+	background-color: #dce7f1;
+	box-shadow: 0 0 3px rgba(54, 50, 16, 0.25) inset;
+}
+
+#appq-comments-list li .appq_comment_panel a.spam{
+	width: 41px;
+	height: 25px;
+	background-position: -82px 6px;
+}
+
+#appq-comments-list li .appq_comment_panel a.spam:hover{
+	background-color: #333;
+}
+
+ul#appq-comments-list .appq_single_comment:hover{
+	background-color: #333;
+}
+
+ul#appq-comments-list .appq_single_comment p{
+	color: #777777;
+	font-size: 12px;
+	text-shadow: none;
+	line-height: 1;
+	margin: 12px 0 0 0;
+	float: left;
+	width: 335px; 
+}
+
+ul#appq-comments-list p.appq_comment_author,
+ul#appq-comments-list p.appq_comment_author a{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.5;
+	margin: 15px 0 10px 0;
+}
+
+ul#appq-comments-list .appq_single_comment p a{
+	color: #21759b;
+	text-shadow: none;
+	display: inline;
+	padding: 0;
+	line-height: 1;
+}
+
+ul#appq-comments-list p.appq_comment_content{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.5;
+	margin: -8px 0 15px 0;
+	color: #FFF;
+}
+
+ul#appq-comments-list p.appq_comment_content *{
+	font-size: 12px;
+	color: #4B4B4B;
+	line-height: 1.5;
+	text-shadow: none;
+}
+
+ul#appq-comments-list p.appq_comment_content strong{
+	font-weight: 900;
+	font-size: 12px;
+	text-shadow: none;
+	color: #4B4B4B;
+	line-height: 1.5;
+}
+
+/***************************************
+	Bottom panel
+****************************************/
+
+#appq-comments-submenu .appq_comments_bottom{
+	height: 40px; 
+	border-top: none;
+	background-color: #222222;
+}
+
+#appq-comments-submenu .appq_comments_bottom a{
+	text-shadow: none;
+	line-height: 1;
+	padding: 0;
+	outline: none;
+	margin: 0;
+	height: auto; 
+}
+
+#appq-comments-submenu a.approve_all{
+	font-size: 12px;
+	color: #4c4b4b;
+	float: left;
+	margin: 14px 0 0 13px;
+	padding: 0 0 0 22px;
+	background-image: url('../images/icons.gif');
+	background-repeat: no-repeat;
+	background-position: -134px -1px;
+}
+
+#appq-comments-submenu a.approve_all span{
+	font-size: 11px;
+	color: #858585;
+	text-shadow: none;
+	line-height: 1;
+	text-transform: lowercase;
+}
+
+#appq-comments-submenu .appq_comments_bottom a.view_all{
+	font-size: 12px;
+	color: #a0a0a0;
+	float: right;
+	margin: 14px 13px 0 0;
+	text-transform: lowercase;
+}
+
+#wpadminbar ul#appq-comments-list p.appq_comment_author a:hover,
+#wpadminbar ul#appq-comments-list .appq_single_comment p a:hover,
+#appq-comments-submenu .appq_comments_bottom a.view_all:hover,
+#appq-comments-submenu a.approve_all:hover,
+#appq-comments-submenu a.approve_all:hover span{
+	color: #D54E21;
+}

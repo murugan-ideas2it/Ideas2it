@@ -1,0 +1,430 @@
+.post a.admin-toolbar,
+.page a.admin-toolbar{
+	top: 62px;
+	background-color: #3f3f3f;
+}
+
+.post a.admin-toolbar.display,
+.page a.admin-toolbar.display{
+	background: #3f3f3f url('../images/admin-toolbar.png') no-repeat 55% 13px;
+}
+
+.post a.admin-toolbar.loading,
+.page a.admin-toolbar.loading{
+	background: #3f3f3f url('../images/admin-loading.gif') no-repeat 55% 11px;
+}
+
+.post a.admin-toolbar.apply,
+.page a.admin-toolbar.apply{
+	background: #3f3f3f url('../images/admin-toolbar.png') no-repeat 55% -17px;
+}
+
+.post a.admin-toolbar.active,
+.page a.admin-toolbar.active{
+	background-color: #323232;
+}
+
+ul.admin-menu{
+	display: none;
+	background-color: #FFF;
+	width: 250px;
+	border-radius: 4px;
+	position: absolute;
+	left: 29px;
+    top: 58px;
+    width: 200px;
+    z-index: 999;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+
+ul.admin-menu.show{
+	display: block;
+}
+
+ul.admin-menu li a{
+	padding: 15px 15px 14px 20px;
+	width: 165px; 
+	font-size: 12px;
+	display: block;
+	color: #626262;
+}
+
+ul.admin-menu li a:hover{
+	background-color: #F8F8F8;
+}
+
+ul.admin-menu li:first-child a:after{
+	content: '';
+	width: 15px;
+	height: 14px;
+	left: -5px;
+	top: 15px;
+	border-radius: 2px 2px 2px 2px;
+	float: left;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	background-color: #FFF;
+	box-shadow: -2px 2px 1px -1px rgba(0, 0, 0, 0.1);
+}
+
+ul.admin-menu li:first-child a:hover{
+	border-radius: 4px 4px 0 0;
+}
+
+ul.admin-menu li:first-child a:hover:after{
+	background-color: #F8F8F8;
+}
+
+ul.admin-menu li a.trash{
+	border-top: 1px solid #EBEBEB;
+	width: 145px; 
+	padding-left: 40px;
+	border-radius: 0 0 4px 4px;
+	background-image: url('../images/admin-trash.png');
+	background-repeat: no-repeat;
+	background-position: 16px 15px;
+}
+
+ul.admin-menu li a.trash:hover{
+	border-radius: 0 0 4px 4px;
+}
+
+div.undo-trashed{
+	display: none;
+	overflow: hidden;
+}
+
+.undo-trashed p{
+	background-color: #F5F5F5;
+	border: 1px solid #DEDEDE;
+    color: #BF6464;
+	border-radius: 3px 3px 3px 3px;
+    font-size: 12px;
+    margin: 20px 20px 0 20px;
+    padding: 10px;
+    cursor: default;
+    line-height: 1;
+    text-align: center;
+}
+
+.format-status .undo-trashed p{
+	margin: 20px 30px 0 30px;
+}
+
+.undo-trashed a{
+	color: #BF6464;
+	border-bottom: 1px dotted #BF6464;
+	line-height: 1;
+}
+
+.undo-trashed a:hover{
+	color: #333;
+	border-bottom: 1px dotted #333;
+}
+
+.undo-trashed.show{
+	height: auto;
+	overflow: hidden;
+	opacity: 1;
+	transition: opacity 2s ease;
+	-webkit-transition: opacity 2s ease;
+}
+
+/**********************************
+	Standard Post Edit
+**********************************/
+
+.post div.new-title,
+.page div.new-title{
+	margin: 0 0 -3px 0;
+}
+
+.post div.new-title input[type='submit'],
+.page div.new-title input[type='submit']{
+	display: none;
+}
+
+.post div.new-title input[type='text'],
+.page div.new-title input[type='text']{
+	font-size: 30px;
+	margin: 15px 0 3px 0;
+	text-align: center;
+	border: none;
+	font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	width: 100%;
+	padding: 0;
+	color: #333333;
+	line-height: 1;
+	background-color: #FFFFC9;
+}
+
+.single .post div.new-title input[type='text'],
+.single .page div.new-title input[type='text']{
+	margin: 20px 0 3px 0;
+	font-size: 34px;
+}
+
+
+/**********************************
+	Status Edit
+**********************************/
+
+.format-status div.new-title{
+	padding: 0;
+	display: none;
+}
+
+.format-status div.new-title form.new-title{
+	padding: 20px 30px 0 30px;
+}
+
+.format-status div.new-title input[type='submit'],
+.format-status div.new-content input[type='submit']{
+	display: none;
+}
+
+.format-status div.new-title input[type='text']{
+	border: none;
+	font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: 900;
+	width: 100%;
+	padding: 5px 0 15px 0;
+	border-bottom: 1px solid #EDEDED;
+}
+
+.format-status div.new-content{
+	height: 140px;
+	padding: 0 30px 0 155px; 
+}
+
+.format-status div.new-content textarea{
+	border: none;
+	font-size: 15px;
+	font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 110px;
+	padding: 0;
+	line-height: 1.6;
+	color: #626262;
+}
+
+
+/**********************************
+	Link Edit
+**********************************/
+
+.format-link div.new-title{
+	padding: 0;
+	display: none;
+}
+
+.format-link div.new-title form.new-title{
+	padding: 20px 30px 0 30px;
+}
+
+.format-link div.new-title input[type='submit'],
+.format-link div.new-content input[type='submit']{
+	display: none;
+}
+
+.format-link div.new-title input[type='text']{
+	border: none;
+	font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: 900;
+	width: 100%;
+	padding: 5px 0 15px 0;
+	border-bottom: 1px solid #EDEDED;
+}
+
+.format-link div.new-content{
+	height: 300px;
+	padding: 0 30px 0 155px; 
+}
+
+.format-link div.new-content textarea{
+	border: none;
+	font-size: 33px;
+	width: 100%;
+	line-height: 1.5;
+    text-align: center;
+	height: 300px;
+	padding: 0;
+	font-weight: 900;
+	color: #E83B3B;
+}
+
+/**********************************
+	Quote Edit
+**********************************/
+
+.format-quote div.new-title{
+	padding: 0;
+	display: none;
+}
+
+.format-quote div.new-title form.new-title{
+	padding: 20px 30px 0 30px;
+}
+
+.format-quote div.new-title input[type='submit'],
+.format-quote div.new-content input[type='submit']{
+	display: none;
+}
+
+.format-quote div.new-title input[type='text']{
+	border: none;
+	font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: 900;
+	width: 100%;
+	padding: 5px 0 15px 0;
+	border-bottom: 1px solid #EDEDED;
+}
+
+.format-quote div.new-content{
+	padding: 50px 50px 20px 50px;
+}
+
+.format-quote div.new-content textarea{
+	border: none;
+	font-size: 27px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	width: 100%;
+	line-height: 1.7;
+    text-align: center;
+	height: 110px;
+	padding: 0;
+	font-weight: 100;
+	font-style: italic;
+	color: #626262;
+}
+
+
+/**********************************
+	Image Edit
+**********************************/
+
+.format-image div.new-title{
+	margin: 3px 0 2px 0;
+}
+
+.format-image div.new-title input[type='submit']{
+	display: none;
+}
+
+.format-image div.new-title input[type='text']{
+	font-size: 30px;
+	margin: 15px 0 1px 0;
+	text-align: center;
+	border: none;
+	font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	width: 100%;
+	padding: 0;
+	color: #333333;
+	line-height: 1;
+	background-color: #FFFFC9;
+}
+
+.single .format-image div.new-title input[type='text']{
+	font-size: 27px;
+}
+
+/**********************************
+	Gallery Edit
+**********************************/
+
+/*.format-gallery div.new-title{
+	margin: -3px 0 -2px 0;
+}
+
+.format-gallery div.new-title input[type='submit']{
+	display: none;
+}
+
+.format-gallery div.new-title input[type='text']{
+	font-size: 24px;
+	margin: 18px 0 2px 0;
+	text-align: center;
+	border: none;
+	font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	width: 100%;
+	padding: 0;
+	color: #333333;
+	line-height: 1;
+	background-color: #FFFFC9;
+}*/
+
+/**********************************
+	Video Edit
+**********************************/
+
+.format-video div.new-title{
+	margin: -2px 0 -3px 0;
+}
+
+.format-video div.new-title input[type='submit']{
+	display: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+@media screen and
+	(-o-min-device-pixel-ratio: 5/4),
+	(-webkit-min-device-pixel-ratio: 1.25),
+	(min-resolution: 120dpi) {
+
+	.post a.admin-toolbar.display,
+	.page a.admin-toolbar.display{
+		background: #3f3f3f url('../images/admin-toolbar@2x.png') no-repeat 50% 10px;
+		background-size: 10px 40px;
+	}
+
+	.post a.admin-toolbar.apply,
+	.page a.admin-toolbar.apply{
+		background: #3f3f3f url('../images/admin-toolbar@2x.png') no-repeat 50% -18px;
+		background-size: 10px 40px;
+	}
+
+	.post a.admin-toolbar.loading,
+	.page a.admin-toolbar.loading{
+		background: #3f3f3f url('../images/admin-loading@2x.gif') no-repeat 55% 12px;
+		background-size: 12px 12px;
+	}
+
+}
+
+
+@media screen and (max-width: 768px){
+
+	.undo-trashed p {
+		margin-bottom: 20px;
+	}
+
+}
+
+
+@media screen and (max-width: 400px){
+
+	
+	.format-status div.new-content{
+		padding: 0 30px 20px 35px;
+	}
+
+	.format-status div.new-content textarea {
+		font-size: 13px;
+	}
+
+}

@@ -1,0 +1,1 @@
+[29-Mar-2017 11:52:59 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bhraman/public_html/blog/wp-content/themes/shoreditch/index.php on line 15

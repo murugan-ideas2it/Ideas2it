@@ -1,0 +1,13 @@
+/*
+Theme Name: Persona Theme
+Theme URI: http://www.natko.com
+Description: Persona is a responsive AJAX theme for bloggers and small companies designed to look beautiful on any device. Choose your version from multiple layouts and make it stand out with your custom header image and color scheme. Another unique feature is frontend edit that’s only visible when you’re signed on so you can trash posts, rearrange widgets and edit post title without going to the administration panel.
+Author: Natko Hasić
+Author URI: http://www.natko.com
+Version: 1.5
+License: General Public License
+License URI: license.txt
+Tags: dark, light, white, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, post-formats, theme-options, translation-ready
+*/
+
+@import url("style/style.css");

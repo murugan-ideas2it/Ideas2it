@@ -1,0 +1,871 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Persona\n"
+"POT-Creation-Date: 2013-12-21 16:26+0100\n"
+"PO-Revision-Date: 2013-12-21 16:26+0100\n"
+"Last-Translator: \n"
+"Language-Team: Persona\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:17
+msgid "404: Page Not Found"
+msgstr ""
+
+#: ../404.php:22
+msgid ""
+"To find what you're looking for use the search or check out some of the "
+"latest articles."
+msgstr ""
+
+#: ../404.php:24
+msgid "All Posts"
+msgstr ""
+
+#: ../404.php:25
+msgid "Statuses"
+msgstr ""
+
+#: ../404.php:26
+msgid "Images"
+msgstr ""
+
+#: ../404.php:27
+msgid "Galleries"
+msgstr ""
+
+#: ../404.php:28
+msgid "Videos"
+msgstr ""
+
+#: ../404.php:29
+msgid "Quotes"
+msgstr ""
+
+#: ../404.php:30
+msgid "Links"
+msgstr ""
+
+#: ../archive.php:41
+msgid "Viewing all items for tag "
+msgstr ""
+
+#: ../archive.php:43 ../archive.php:45 ../archive.php:47
+msgid "All items for "
+msgstr ""
+
+#: ../archive.php:61 ../search.php:31 ../taxonomy.php:34
+msgid "No results found."
+msgstr ""
+
+#: ../comments.php:41
+#, php-format
+msgid "view all comments (%d)"
+msgstr ""
+
+#: ../comments.php:51
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:52
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:53
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:71 ../comments.php:95
+msgid "Leave a comment..."
+msgstr ""
+
+#: ../comments.php:77 ../comments.php:101
+msgid ""
+"Thanks for leaving a comment, please keep it clean. HTML allowed is strong, "
+"code and a href."
+msgstr ""
+
+#: ../comments.php:80 ../comments.php:104 ../functions.php:623
+msgid "Comment moderation is enabled, no need to resubmit any comments posted."
+msgstr ""
+
+#: ../comments.php:83 ../comments.php:107 ../content-status.php:33
+#: ../functions.php:630 ../functions.php:631
+msgid "Reply"
+msgstr ""
+
+#: ../comments.php:97 ../functions.php:615
+msgid "Your Name..."
+msgstr ""
+
+#: ../comments.php:98 ../functions.php:616
+msgid "Your Email..."
+msgstr ""
+
+#: ../comments.php:99 ../functions.php:617
+msgid "Webpage..."
+msgstr ""
+
+#: ../comments.php:117
+msgid "You need to be logged in to leave a comment."
+msgstr ""
+
+#: ../content-gallery.php:18 ../content-image.php:18
+msgid "Edit Image Title"
+msgstr ""
+
+#: ../content-gallery.php:19 ../content-image.php:19
+msgid "Trash Image"
+msgstr ""
+
+#: ../content-gallery.php:38 ../content-image.php:49 ../content-link.php:34
+#: ../content-quote.php:34 ../content-status.php:40 ../content.php:27
+#: ../template-archive.php:30
+msgid "Share +"
+msgstr ""
+
+#: ../content-gallery.php:50 ../content-image.php:61 ../content-link.php:46
+#: ../content-quote.php:46 ../content-video.php:45 ../content.php:54
+#: ../template-archive.php:57
+msgid "in"
+msgstr ""
+
+#: ../content-gallery.php:55 ../content-image.php:66 ../content-link.php:51
+#: ../content-quote.php:51 ../content-video.php:50 ../content.php:59
+#: ../single-portfolio.php:45 ../template-archive.php:62
+msgid "Leave a comment"
+msgstr ""
+
+#: ../content-gallery.php:57 ../content-image.php:68 ../content-link.php:53
+#: ../content-quote.php:53 ../content-status.php:35 ../content-video.php:52
+#: ../content.php:61 ../single-portfolio.php:47 ../template-archive.php:64
+msgid "(comments are closed)"
+msgstr ""
+
+#: ../content-link.php:18
+msgid "Edit Link Title"
+msgstr ""
+
+#: ../content-link.php:19
+msgid "Trash Link"
+msgstr ""
+
+#: ../content-quote.php:18
+msgid "Edit Quote Title"
+msgstr ""
+
+#: ../content-quote.php:19
+msgid "Trash Quote"
+msgstr ""
+
+#: ../content-status.php:18
+msgid "Edit Status Title"
+msgstr ""
+
+#: ../content-status.php:19
+msgid "Trash Status"
+msgstr ""
+
+#: ../content-video.php:18
+msgid "Edit Video Title"
+msgstr ""
+
+#: ../content-video.php:19
+msgid "Trash Video"
+msgstr ""
+
+#: ../content.php:22 ../single-portfolio.php:27 ../template-archive.php:25
+msgid "Edit Post Title"
+msgstr ""
+
+#: ../content.php:23 ../single-portfolio.php:28 ../template-archive.php:26
+msgid "Trash Post"
+msgstr ""
+
+#: ../content.php:72
+msgid "Continue reading..."
+msgstr ""
+
+#: ../content.php:75 ../single-portfolio.php:55
+msgid "Pages:"
+msgstr ""
+
+#: ../functions.php:7
+msgid "Header Menu"
+msgstr ""
+
+#: ../functions.php:8
+msgid "Footer Menu"
+msgstr ""
+
+#: ../functions.php:233
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ../functions.php:234
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../functions.php:235
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ../functions.php:236
+msgid "View Portfolio Item"
+msgstr ""
+
+#: ../functions.php:237
+msgid "Search Portfolio"
+msgstr ""
+
+#: ../functions.php:238 ../index.php:39 ../template-portfolio.php:83
+msgid "No items found"
+msgstr ""
+
+#: ../functions.php:239
+msgid "No items found in Trash"
+msgstr ""
+
+#: ../functions.php:241
+msgid "Portfolio"
+msgstr ""
+
+#: ../functions.php:271
+msgid "Main Sidebar"
+msgstr ""
+
+#: ../functions.php:273
+msgid "Widgets in this area will be shown in the main sidebar."
+msgstr ""
+
+#: ../functions.php:299
+msgid "Footer Left"
+msgstr ""
+
+#: ../functions.php:301
+msgid "Widgets in this area will be shown on the left side of the footer."
+msgstr ""
+
+#: ../functions.php:309
+msgid "Footer Middle"
+msgstr ""
+
+#: ../functions.php:311
+msgid "Widgets in this area will be shown in the middle of the footer."
+msgstr ""
+
+#: ../functions.php:319
+msgid "Footer Right"
+msgstr ""
+
+#: ../functions.php:321
+msgid "Widgets in this area will be shown on the right side of the footer."
+msgstr ""
+
+#: ../functions.php:365
+msgid "&lt;no sidebar&gt;"
+msgstr ""
+
+#: ../functions.php:419 ../functions.php:422
+msgid "Choose Background"
+msgstr ""
+
+#: ../functions.php:419 ../functions.php:422
+msgid "Set As Background"
+msgstr ""
+
+#: ../functions.php:419 ../functions.php:422
+msgid "Select Background Image"
+msgstr ""
+
+#: ../functions.php:420 ../functions.php:423
+msgid "Remove Background Image"
+msgstr ""
+
+#: ../functions.php:518
+msgid "Save Changes"
+msgstr ""
+
+#: ../functions.php:575
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:632
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../functions.php:633
+msgid "Cancel reply"
+msgstr ""
+
+#: ../functions.php:770
+msgid "Post has been trashed, to undo it click the admin icon again."
+msgstr ""
+
+#: ../functions.php:773
+msgid "Untrash post"
+msgstr ""
+
+#: ../functions.php:1001
+msgid "Google Analytics Tracking Code"
+msgstr ""
+
+#: ../functions.php:1015
+msgid "Paste the entire Google Analytics code here including the script tag."
+msgstr ""
+
+#: ../header.php:32
+msgid "Menu"
+msgstr ""
+
+#: ../page.php:24 ../single-portfolio.php:70 ../single.php:29
+msgid "not found"
+msgstr ""
+
+#: ../search.php:17
+msgid "Results found: "
+msgstr ""
+
+#: ../searchform.php:3
+msgid "Type and hit enter..."
+msgstr ""
+
+#: ../sharebox-template.php:31
+msgid "Share on Facebook"
+msgstr ""
+
+#: ../sharebox-template.php:32
+msgid "Share on Twitter"
+msgstr ""
+
+#: ../sharebox-template.php:33
+msgid "Share on Google+"
+msgstr ""
+
+#: ../sharebox-template.php:37
+msgid "Share Image on Tumblr"
+msgstr ""
+
+#: ../sharebox-template.php:51
+msgid "Share Link on Tumblr"
+msgstr ""
+
+#: ../sharebox-template.php:60
+msgid "Share Quote on Tumblr"
+msgstr ""
+
+#: ../sharebox-template.php:64
+msgid "Share on Tumblr"
+msgstr ""
+
+#: ../sharebox-template.php:68
+msgid "Email"
+msgstr ""
+
+#: ../sharebox-template.php:71
+msgid "Permalink:"
+msgstr ""
+
+#: ../single-portfolio.php:89
+msgid "Related work"
+msgstr ""
+
+#: ../template-archive.php:70
+msgid "Archives by Year:"
+msgstr ""
+
+#: ../template-archive.php:74
+msgid "Archives by Month:"
+msgstr ""
+
+#: ../template-archive.php:78
+msgid "Latest posts:"
+msgstr ""
+
+#: ../template-portfolio.php:37
+msgid "View all"
+msgstr ""
+
+#: ../theme-options/customizer.php:14
+msgid "No Pattern"
+msgstr ""
+
+#: ../theme-options/customizer.php:15
+msgid "Arches"
+msgstr ""
+
+#: ../theme-options/customizer.php:16
+msgid "Light Brick"
+msgstr ""
+
+#: ../theme-options/customizer.php:17
+msgid "Small Brick"
+msgstr ""
+
+#: ../theme-options/customizer.php:18
+msgid "Bright Squares"
+msgstr ""
+
+#: ../theme-options/customizer.php:19
+msgid "Cuts"
+msgstr ""
+
+#: ../theme-options/customizer.php:20
+msgid "Damask Dark 01 (transparent)"
+msgstr ""
+
+#: ../theme-options/customizer.php:21
+msgid "Damask Light 01 (transparent)"
+msgstr ""
+
+#: ../theme-options/customizer.php:22
+msgid "Damask Dark 02 (transparent)"
+msgstr ""
+
+#: ../theme-options/customizer.php:23
+msgid "Damask Light 02 (transparent)"
+msgstr ""
+
+#: ../theme-options/customizer.php:24
+msgid "Damask Dark 03 (transparent)"
+msgstr ""
+
+#: ../theme-options/customizer.php:25
+msgid "Damask Light 03 (transparent)"
+msgstr ""
+
+#: ../theme-options/customizer.php:26
+msgid "Damask Dark 04 (transparent)"
+msgstr ""
+
+#: ../theme-options/customizer.php:27
+msgid "Damask Light 04 (transparent)"
+msgstr ""
+
+#: ../theme-options/customizer.php:28
+msgid "Damask Dark 05 (transparent)"
+msgstr ""
+
+#: ../theme-options/customizer.php:29
+msgid "Damask Light 05 (transparent)"
+msgstr ""
+
+#: ../theme-options/customizer.php:30
+msgid "Diamonds (transparent)"
+msgstr ""
+
+#: ../theme-options/customizer.php:31
+msgid "Dots (transparent)"
+msgstr ""
+
+#: ../theme-options/customizer.php:32
+msgid "Fabric Left (transparent)"
+msgstr ""
+
+#: ../theme-options/customizer.php:33
+msgid "Fabric Right (transparent)"
+msgstr ""
+
+#: ../theme-options/customizer.php:34
+msgid "Grid"
+msgstr ""
+
+#: ../theme-options/customizer.php:35
+msgid "Grid Noise"
+msgstr ""
+
+#: ../theme-options/customizer.php:36
+msgid "Horizontal Stripes (transparent)"
+msgstr ""
+
+#: ../theme-options/customizer.php:37
+msgid "Leaf"
+msgstr ""
+
+#: ../theme-options/customizer.php:38
+msgid "Light Wool"
+msgstr ""
+
+#: ../theme-options/customizer.php:39
+msgid "Maze"
+msgstr ""
+
+#: ../theme-options/customizer.php:40
+msgid "Noise (transparent)"
+msgstr ""
+
+#: ../theme-options/customizer.php:41
+msgid "Pinstripe"
+msgstr ""
+
+#: ../theme-options/customizer.php:42
+msgid "Square (transparent)"
+msgstr ""
+
+#: ../theme-options/customizer.php:43
+msgid "Triangles"
+msgstr ""
+
+#: ../theme-options/customizer.php:44
+msgid "Vertical Dots (transparent)"
+msgstr ""
+
+#: ../theme-options/customizer.php:45
+msgid "Dark Pixels"
+msgstr ""
+
+#: ../theme-options/customizer.php:46
+msgid "Wood"
+msgstr ""
+
+#: ../theme-options/customizer.php:47
+msgid "Wood Light"
+msgstr ""
+
+#: ../theme-options/customizer.php:48
+msgid "Wood Dark"
+msgstr ""
+
+#: ../theme-options/customizer.php:49
+msgid "Dark Brick"
+msgstr ""
+
+#: ../theme-options/customizer.php:113
+msgid "Color Scheme"
+msgstr ""
+
+#: ../theme-options/customizer.php:123
+msgid "Menu Color"
+msgstr ""
+
+#: ../theme-options/customizer.php:136
+msgid "Standard Post Format Color"
+msgstr ""
+
+#: ../theme-options/customizer.php:149
+msgid "Status Post Format Color"
+msgstr ""
+
+#: ../theme-options/customizer.php:162
+msgid "Image Post Format Color"
+msgstr ""
+
+#: ../theme-options/customizer.php:175
+msgid "Gallery Post Format Color"
+msgstr ""
+
+#: ../theme-options/customizer.php:188
+msgid "Video Post Format Color"
+msgstr ""
+
+#: ../theme-options/customizer.php:201
+msgid "Link Post Format Color"
+msgstr ""
+
+#: ../theme-options/customizer.php:214
+msgid "Quote Post Format Color"
+msgstr ""
+
+#: ../theme-options/customizer.php:227
+msgid "Background Color"
+msgstr ""
+
+#: ../theme-options/customizer.php:240
+msgid "Content Style"
+msgstr ""
+
+#: ../theme-options/customizer.php:256 ../theme-options/customizer.php:267
+msgid "Background Pattern"
+msgstr ""
+
+#: ../theme-options/customizer.php:282
+msgid "Fixed Background"
+msgstr ""
+
+#: ../theme-options/customizer.php:294
+msgid "Layout"
+msgstr ""
+
+#: ../theme-options/customizer.php:305
+msgid "Show Header"
+msgstr ""
+
+#: ../theme-options/customizer.php:319
+msgid "Show Header On Every Page"
+msgstr ""
+
+#: ../theme-options/customizer.php:333
+msgid "Content Width"
+msgstr ""
+
+#: ../theme-options/customizer.php:339
+msgid "Full Size"
+msgstr ""
+
+#: ../theme-options/customizer.php:340
+msgid "Compact Size"
+msgstr ""
+
+#: ../theme-options/customizer.php:351
+msgid "Show Slider"
+msgstr ""
+
+#: ../theme-options/customizer.php:365
+msgid "Slider Size"
+msgstr ""
+
+#: ../theme-options/customizer.php:383
+msgid "Show Sidebar"
+msgstr ""
+
+#: ../theme-options/customizer.php:397
+msgid "Sidebar Position"
+msgstr ""
+
+#: ../theme-options/customizer.php:408 ../theme-options/customizer.php:414
+msgid "Site Title & Logo"
+msgstr ""
+
+#: ../theme-options/customizer.php:422
+msgid "Site Logo / Avatar"
+msgstr ""
+
+#: ../theme-options/customizer.php:435
+msgid "Show Logo / Avatar"
+msgstr ""
+
+#: ../theme-options/customizer.php:449
+msgid "Title"
+msgstr ""
+
+#: ../theme-options/customizer.php:463
+msgid "Description (can be HTML)"
+msgstr ""
+
+#: ../theme-options/customizer.php:477
+msgid "Show Title / Description"
+msgstr ""
+
+#: ../theme-options/customizer.php:485 ../theme-options/customizer.php:1027
+msgid "All rights reserved"
+msgstr ""
+
+#: ../theme-options/customizer.php:491
+msgid "Footer Text"
+msgstr ""
+
+#: ../theme-options/customizer.php:504
+msgid "Favicon"
+msgstr ""
+
+#: ../theme-options/customizer.php:515 ../theme-options/customizer.php:525
+msgid "Header Image"
+msgstr ""
+
+#: ../theme-options/customizer.php:536 ../theme-options/customizer.php:546
+msgid "Login Image"
+msgstr ""
+
+#: ../theme-options/customizer.php:557 ../theme-options/customizer.php:568
+msgid "Additional CSS"
+msgstr ""
+
+#: ../theme-options/slider-manager.php:35
+msgid "Slider settings updated."
+msgstr ""
+
+#: ../theme-options/slider-manager.php:41
+#: ../theme-options/slider-manager.php:55
+#: ../theme-options/slider-manager.php:78
+msgid "Slide title..."
+msgstr ""
+
+#: ../theme-options/slider-manager.php:42
+msgid "Add Slide"
+msgstr ""
+
+#: ../theme-options/slider-manager.php:56
+#: ../theme-options/slider-manager.php:79
+msgid "Slide description..."
+msgstr ""
+
+#: ../theme-options/slider-manager.php:57
+#: ../theme-options/slider-manager.php:80
+msgid "Media Gallery"
+msgstr ""
+
+#: ../theme-options/slider-manager.php:57
+#: ../theme-options/slider-manager.php:80
+msgid "Add To Slide"
+msgstr ""
+
+#: ../theme-options/slider-manager.php:57
+#: ../theme-options/slider-manager.php:80
+msgid "Choose the slide image"
+msgstr ""
+
+#: ../theme-options/slider-manager.php:58
+#: ../theme-options/slider-manager.php:81
+msgid "Slide image..."
+msgstr ""
+
+#: ../theme-options/slider-manager.php:59
+#: ../theme-options/slider-manager.php:82
+msgid "Slide URL..."
+msgstr ""
+
+#: ../theme-options/slider-manager.php:60
+#: ../theme-options/slider-manager.php:83
+msgid "Delete Slide"
+msgstr ""
+
+#: ../theme-options/slider-manager.php:66
+msgid "There are currently no slides, add one!"
+msgstr ""
+
+#: ../theme-options/slider-manager.php:75
+msgid "[no title]"
+msgstr ""
+
+#: ../theme-options/slider-manager.php:100
+#: ../theme-options/unlimited-sidebars.php:88
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../theme-options/slider-manager.php:114
+msgid "Are you sure you want to delete this slide?"
+msgstr ""
+
+#: ../theme-options/slider-manager.php:124
+msgid "Manage Slides"
+msgstr ""
+
+#: ../theme-options/slider-manager.php:125
+msgid ""
+"Add a new slide and choose its position in the slider. Number of slides is "
+"unlimited."
+msgstr ""
+
+#: ../theme-options/slider-manager.php:130
+msgid "Update Slider"
+msgstr ""
+
+#: ../theme-options/unlimited-sidebars.php:32
+msgid "Sidebar settings updated."
+msgstr ""
+
+#: ../theme-options/unlimited-sidebars.php:38
+#: ../theme-options/unlimited-sidebars.php:52
+#: ../theme-options/unlimited-sidebars.php:71
+msgid "Sidebar name..."
+msgstr ""
+
+#: ../theme-options/unlimited-sidebars.php:39
+msgid "Add Sidebar"
+msgstr ""
+
+#: ../theme-options/unlimited-sidebars.php:53
+#: ../theme-options/unlimited-sidebars.php:72
+msgid "Delete Sidebar"
+msgstr ""
+
+#: ../theme-options/unlimited-sidebars.php:59
+msgid "There are no extra sidebars currently, add one!"
+msgstr ""
+
+#: ../theme-options/unlimited-sidebars.php:102
+msgid "Are you sure you want to delete this sidebar?"
+msgstr ""
+
+#: ../theme-options/unlimited-sidebars.php:112
+msgid "Sidebars"
+msgstr ""
+
+#: ../theme-options/unlimited-sidebars.php:113
+msgid ""
+"Add a new sidebar which you can then use on any post or page by selecting it "
+"from the \"Sidebars\" metabox. Number of sidebars is unlimited."
+msgstr ""
+
+#: ../theme-options/unlimited-sidebars.php:118
+msgid "Update Sidebars"
+msgstr ""
+
+#: ../theme-options/widget-ad-250.php:16
+msgid "Ad Unit for 250px width banners."
+msgstr ""
+
+#: ../theme-options/widget-ad-250.php:66
+msgid "Paste the Ad code here:"
+msgstr ""
+
+#: ../theme-options/widget-image.php:16
+msgid "Choose the image post you want to display."
+msgstr ""
+
+#: ../theme-options/widget-image.php:101
+msgid "Image:"
+msgstr ""
+
+#: ../theme-options/widget-image.php:103
+msgid "&lt;show latest image&gt;"
+msgstr ""
+
+#: ../theme-options/widget-portfolio.php:16
+msgid "Choose the portfolio item you want to display."
+msgstr ""
+
+#: ../theme-options/widget-portfolio.php:95
+msgid "Portfolio:"
+msgstr ""
+
+#: ../theme-options/widget-portfolio.php:97
+msgid "&lt;show latest portfolio item&gt;"
+msgstr ""
+
+#: ../theme-options/widget-social.php:60
+#: ../theme-options/widget-social.php:364
+#: ../theme-options/widget-social.php:387
+#: ../theme-options/widget-social.php:408
+msgid "Profile link..."
+msgstr ""
+
+#: ../theme-options/widget-social.php:61
+#: ../theme-options/widget-social.php:389
+msgid "Email address or contact page link..."
+msgstr ""
+
+#: ../theme-options/widget-social.php:62
+#: ../theme-options/widget-social.php:391
+msgid "Skype username..."
+msgstr ""
+
+#: ../theme-options/widget-social.php:73
+msgid "All of your social profiles on one place."
+msgstr ""
+
+#: ../theme-options/widget-social.php:350
+msgid "Title:"
+msgstr ""
+
+#: ../theme-options/widget-social.php:353
+msgid "Description:"
+msgstr ""
+
+#: ../theme-options/widget-social.php:359
+#: ../theme-options/widget-social.php:377
+#: ../theme-options/widget-social.php:403
+msgid "&lt;select icon&gt;"
+msgstr ""
+
+#: ../theme-options/widget-social.php:416
+msgid "Add another"
+msgstr ""
